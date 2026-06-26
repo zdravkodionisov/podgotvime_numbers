@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Здравей, ученик!"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Избери тема за подготовка:"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Рационални числа"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnEquations"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Линейни уравнения"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnGeometry"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Геометрия"
+        android:layout_marginTop="12dp" />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Изход"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>

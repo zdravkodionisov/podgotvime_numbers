@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Регистрация на ученик"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Име"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Фамилия"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editSchool"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Училище" />
+
+    <EditText
+        android:id="@+id/editGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Клас"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/editCity"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Град" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Имейл" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Парола"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnCreateProfile"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Създай профил"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
